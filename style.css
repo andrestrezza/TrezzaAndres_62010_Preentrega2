@@ -1,0 +1,86 @@
+.ModoOscuro{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--color-primario-oscuro);
+    color: rgb(2, 2, 2);
+}
+
+.ModoOscuro:hover{
+    cursor: pointer;
+    background-color: var(--color-secundario-oscuro);
+}
+.Categorias ul{
+    display: flex;
+    list-style: none;
+}
+
+.Categorias ul li{
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+h1 {
+    background-color: rgb(138, 109, 109);
+    font-style: oblique;
+    color: violet;
+}
+
+.mainContainer {
+    background-color: rgb(225, 210, 238);
+}
+
+
+.container-fluid {
+    text-align: right;
+    background-color: rgb(200, 142, 250);
+    font-size: x-large;
+    
+  }
+
+
+  .precio {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  
+  .producto {
+    background-color: #b7adee;
+    padding: 15px;
+    width: 250px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column;
+    text-align: center
+}
+
+.producto img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.producto h3 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.bodyDark{
+    background-color: rgb(41, 35, 35);
+    color: azure;
+}
